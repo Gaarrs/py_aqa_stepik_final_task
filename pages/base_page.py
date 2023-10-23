@@ -4,4 +4,4 @@ class BasePage():
         self.url = url
 
     def open(self):
-        browser.get(self.url)
+        self.browser.get(self.url)
